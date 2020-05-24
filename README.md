@@ -12,6 +12,8 @@ https://github.com/gabotronix/laravel-docker-dev/wiki/Set-Up-a-Simple-Laravel-Lo
 - Database - mariadb:latest
 - phpMyAdmin - phpmyadmin/phpmyadmin:latest
 
+Disk Usage: approximately 2GB
+
 ***
 _Credits:_
 
