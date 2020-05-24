@@ -18,10 +18,10 @@ https://github.com/gabotronix/laravel-docker-dev-windows/wiki
 ***
 
 **Docker images used in this package:**
-- Web Server - php:7.4-apache
-- Composer - composer:latest
-- Database - mariadb:latest
-- phpMyAdmin - phpmyadmin/phpmyadmin:latest
+- Web Server - [php:7.4-apache](https://hub.docker.com/_/php)
+- Composer - [composer:latest](https://hub.docker.com/_/composer)
+- Database - [mariadb:latest](https://hub.docker.com/_/mariadb)
+- phpMyAdmin - [phpmyadmin/phpmyadmin:latest](https://hub.docker.com/r/phpmyadmin/phpmyadmin)
 
 Disk Usage: approximately 2GB
 
