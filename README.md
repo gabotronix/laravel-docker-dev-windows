@@ -1,4 +1,4 @@
-Work in progress
+# Work in progress
 
 ## A Simple Dockerized Laravel Development Environment for Windows 10 Pro
 
@@ -27,7 +27,7 @@ Disk Usage: approximately 2GB
 
 _Credits:_
 
-The configuration files in this package are based on the articles written by:
+The configuration files in this repo are based on the articles written by:
 
 V Ng:
 https://dev.to/veevidify/docker-compose-up-your-entire-laravel-apache-mysql-development-environment-45ea
