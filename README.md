@@ -1,16 +1,21 @@
-A Simple Dockerized Laravel Development Environment
+## A Simple Dockerized Laravel Development Environment
 
-Read the Wiki for installation instructions.
+Read the Wiki for installation instructions: https://github.com/gabotronix/laravel-docker-dev/wiki
 
-https://github.com/gabotronix/laravel-docker-dev/wiki
-
+***
 Docker images used in this package:
 
-Web Server - php:7.4-apache
+- Web Server - php:7.4-apache
+- Composer - composer:latest
+- Database - mariadb:latest
+- phpMyAdmin - phpmyadmin/phpmyadmin:latest
 
-Composer - composer:latest
+***
+Credits:
+The configuration files in this package were based on the articles written by:
 
-Database - mariadb:latest
+V Ng:
+https://dev.to/veevidify/docker-compose-up-your-entire-laravel-apache-mysql-development-environment-45ea
 
-phpMyAdmin - phpmyadmin/phpmyadmin:latest
-
+Erika Heidi:
+https://www.digitalocean.com/community/tutorials/how-to-containerize-a-laravel-application-for-development-with-docker-compose-on-ubuntu-18-04
