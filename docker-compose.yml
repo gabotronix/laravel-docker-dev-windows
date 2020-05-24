@@ -1,0 +1,49 @@
+version: '3.5'
+
+networks:
+  dev:
+
+volumes:
+  mariadb: {} 
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    restart: unless-stopped
+    networks:
+      - dev
+    environment:
+      - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE=laravel
+      - MYSQL_USER=laravel_dev
+      - MYSQL_PASSWORD=$MYSQL_PASSWORD
+    volumes:
+      - mariadb:/config
+
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    restart: unless-stopped
+    networks:
+      - dev
+    ports:
+      - 9191:80
+    environment:
+      - PMA_ARBITRARY=0 # Change to 1 if you want to specify a HOST on the login page
+      - PMA_HOST=mariadb
+
+  laravel_p1:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - mariadb
+    container_name: p1
+    restart: unless-stopped
+    networks:
+      - dev
+    volumes:
+      - ./project-1:/var/www/html
+    ports:
+      - 8383:80
