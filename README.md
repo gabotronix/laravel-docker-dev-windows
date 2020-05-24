@@ -9,3 +9,5 @@ Composer - composer:latest
 Database - mariadb:latest
 
 phpMyAdmin - phpmyadmin/phpmyadmin:latest
+
+Read the Wiki for installation instructions.
