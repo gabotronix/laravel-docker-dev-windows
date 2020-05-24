@@ -2,7 +2,9 @@ Work in progress
 
 ## A Simple Dockerized Laravel Development Environment for Windows 10 Pro
 
-Read the Wiki for installation instructions: https://github.com/gabotronix/laravel-docker-dev-windows/wiki
+Read the Wiki for installation instructions:
+
+https://github.com/gabotronix/laravel-docker-dev/wiki/Set-Up-a-Simple-Laravel-Local-Development-Environment-for-Windows-10
 
 **Docker images used in this package:**
 - Web Server - php:7.4-apache
