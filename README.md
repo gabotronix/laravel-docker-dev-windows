@@ -13,7 +13,7 @@ Read the Wiki for installation instructions: https://github.com/gabotronix/larav
 ***
 _Credits:_
 
-The configuration files in this package were based on the articles written by:
+The configuration files in this package are based on the articles written by:
 
 V Ng:
 https://dev.to/veevidify/docker-compose-up-your-entire-laravel-apache-mysql-development-environment-45ea
