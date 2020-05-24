@@ -14,6 +14,3 @@ Database - mariadb:latest
 
 phpMyAdmin - phpmyadmin/phpmyadmin:latest
 
-Credits:
-
-The configuration files in this package were based on the articles written by @veevidify and Erika Heidi.
