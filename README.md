@@ -11,7 +11,7 @@ laravel-docker-dev-windows is a Docker-based package for Docker Desktop that aim
 * [Requirements](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Requirements)
 * [Installation](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Installation)
 * [Usage](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Usage)
-* Removal/Uninstall
+* Removal
 
 ***
 
