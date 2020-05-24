@@ -4,7 +4,12 @@ Work in progress
 
 Read the Wiki for installation instructions:
 
-https://github.com/gabotronix/laravel-docker-dev/wiki/Set-Up-a-Simple-Laravel-Local-Development-Environment-for-Windows-10
+https://github.com/gabotronix/laravel-docker-dev-windows/wiki
+
+* [Requirements](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Requirements)
+* [Installation](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Installation)
+* [Usage](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Usage)
+* Removal/Uninstall
 
 **Docker images used in this package:**
 - Web Server - php:7.4-apache
