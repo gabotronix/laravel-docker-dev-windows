@@ -6,9 +6,7 @@ Work in progress
 
 ***
 
-Read the Wiki for installation instructions:
-
-https://github.com/gabotronix/laravel-docker-dev-windows/wiki
+laravel-docker-dev-windows is a Docker-based package for Docker Desktop that aims to standardize the development and production environments by using the same set of Linux, Apache, MariaDB, and PHP configuration.
 
 * [Requirements](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Requirements)
 * [Installation](https://github.com/gabotronix/laravel-docker-dev-windows/wiki/Installation)
