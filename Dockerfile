@@ -53,4 +53,4 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # 7. Laravel
 RUN git clone https://github.com/laravel/laravel.git /var/www/html && \
     cd /var/www/html && \
-    curl https://raw.githubusercontent.com/gabotronix/laravel-docker-dev-files/master/env -o .env
+    curl https://raw.githubusercontent.com/gabotronix/laravel-docker-dev-files/dev/env -o .env
